@@ -1,0 +1,10 @@
+{% extends 'users/base.html' %}
+
+{% block focused_buttons %}
+
+    hey you're at the home_page of this website
+    <a href="{% url 'register' %}"> register</a>
+    <a href="">login</a>
+    <a href="{% url 'logout' %}">logout</a>
+
+{% endblock focused_buttons %}
